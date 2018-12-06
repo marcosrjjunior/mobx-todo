@@ -6,7 +6,9 @@ import store from './TodoStore';
 class App extends Component {
   render() {
     return (
-      <TodoList store={store} />
+      <div className="App">
+        <TodoList store={store} />
+      </div>
     );
   }
 }
