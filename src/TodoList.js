@@ -37,7 +37,7 @@ const TodoList = observer(class TodoList extends Component {
         <div>
             <h1>todos</h1>
             <div>
-              <input className="create (enter)" placeholder="create" onKeyPress={this.createNew} />
+              <input className="create" placeholder="create (enter)" onKeyPress={this.createNew} />
             </div>
             <div>
               <input className="filter" placeholder="filter" value={filter} onChange={this.filter} />
